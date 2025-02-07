@@ -87,8 +87,8 @@ Adding new features.]
 [Specify the license under which your project is distributed (e.g., MIT License, Apache License 2.0).  If you're unsure, choose a permissive license like MIT.]
 
 ## Team Members
-Adrian Rodriguez
-Priska Mohunsingh
-Tim Terry
+Adrian Rodriguez 
+Priska Mohunsingh 
+Tim Terry 
 
 
