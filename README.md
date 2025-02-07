@@ -3,12 +3,6 @@ Github Repo for IE7500 Course Project | Cinematic Quote Analyzer
 
 This repository contains the code and resources for our semester project on Natural Language Processing (NLP).
 
-With our Cinematic Quote Analyzer, we aim to develop an interactive tool that empowers users to explore the deeper meaning behind their favorite movie quotes.
-Users will be able to input any cinematic quote, which the tool will analyze for its emotional tone, genre association, and contextual relevance within the script.
-Leveraging advanced natural language processing techniques like sentiment analysis, topic modeling, and contextual embeddings, the tool will provide meaningful 
-insights into the quote's significance. We also plan for the tool to offer tailored movie recommendations based on themes, tones, or dialogue styles, fostering a 
-deeper appreciation for cinematic storytelling and connecting users with similar films they might enjoy!
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -33,7 +27,11 @@ untapped potential for audiences who wish to explore the connections between the
 
 ## Project Description
 
-[Describe the project in more detail. Explain the specific tasks involved, the challenges you faced, and how your project addresses them.  Be clear about the project's scope.]
+With our Cinematic Quote Analyzer, we aim to develop an interactive tool that empowers users to explore the deeper meaning behind their favorite movie quotes.
+Users will be able to input any cinematic quote, which the tool will analyze for its emotional tone, genre association, and contextual relevance within the script.
+Leveraging advanced natural language processing techniques like sentiment analysis, topic modeling, and contextual embeddings, the tool will provide meaningful 
+insights into the quote's significance. We also plan for the tool to offer tailored movie recommendations based on themes, tones, or dialogue styles, fostering a 
+deeper appreciation for cinematic storytelling and connecting users with similar films they might enjoy!
 
 ## Dataset
 
