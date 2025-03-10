@@ -32,7 +32,7 @@ Leveraging advanced natural language processing techniques like sentiment analys
 insights into the quote's significance. We also plan for the tool to offer tailored movie recommendations based on themes, tones, or dialogue styles, fostering a 
 deeper appreciation for cinematic storytelling and connecting users with similar films they might enjoy!
 
-## Datasets
+## Dataset
 
 Cornell University Movie Dialogue Corpus
 This corpus comes from the paper, "Chameleons in imagined conversations: A new approach to understanding coordination of linguistic style in dialogs" by Cristian Danescu-Niculescu-Mizil and Lillian Lee.
@@ -60,8 +60,8 @@ Key Features of the Datasets
 	- fields: 
 		- movieID, 
 		- movie title,
-		- movie year, 
-	  - IMDB rating,
+		- movie year,
+	        - IMDB rating,
 		- no. IMDB votes,
  		- genres in the format ['genre1','genre2','genreN']
 * movie_characters_metadata.txt
