@@ -95,33 +95,65 @@ Key Features of the Datasets
 
 ## Methodology
 
-[Explain the NLP techniques and models used in your project.  For example:
-* Preprocessing steps (tokenization, stemming, lemmatization, etc.).
-* Feature extraction methods (TF-IDF, word embeddings, etc.).
-* Models used (Naive Bayes, Logistic Regression, RNNs, Transformers, etc.).
-* Evaluation metrics (accuracy, precision, recall, F1-score, etc.).]
+Explanation of the multiple NLP techniques and models tested for the project.
+
+**Sentiment Analysis**
+
+TextBlob for Movie Lines
+* Preprocessing steps: None
+* Feature extraction methods: Selected "text" field (movie line) to analyze.
+* Models used: TextBlob from textblob
+* Evaluation metrics: sentiment.polarity
+
+TextBlob for Movie Conversations
+* Preprocessing steps: Create full conversation from movie lines and conversations.
+* Feature extraction methods: Selected "text" field (movie conversations) to analyze.
+* Models used: TextBlob from textblob
+* Evaluation metrics: sentiment.polarity
+
+**Classification**
+
+BERT for Movie Lines and Movies Metadata
+* Preprocessing steps: Merged dataset of movie lines and movie metadata.
+* Feature extraction methods: Movie Line and Classification extraction. Autotokenizer from transformers.
+* Models used: bert-base-uncased from Torch. AutoModelForSequenceClassification from transformers.
+* Evaluation metrics: Confusion matrix for predicted versus true predictions.
+
+Huggingface for Character Trait Classification
+* Preprocessing steps: Merged dataset of movie lines by character, movie, dialogue.
+* Feature extraction methods: nltk stopwords, punkt, wordnet, lemmatization.
+* Models used: zero-shot-classification, facebook/bart-large-mnli.
+* Evaluation metrics: Dominant Trait Characteristic.
+
+**Similarity**
+
+Facebook AI Similarity Search (FAISS) for Character Similarity
+* Preprocessing steps: Merged dataset of movie lines by character, movie, dialogue.
+* Feature extraction methods: nltk stopwords, punkt, punkt_tab, wordnet, lemmatization, embeddings.
+* Models used: faiss.
+* Evaluation metrics: Candidate indices similarity scores.
 
 ## Implementation
 
-[Provide details about the implementation:
-* Programming languages used (e.g., Python).
-* Libraries used (e.g., NLTK, spaCy, scikit-learn, TensorFlow, PyTorch).
-* Structure of the code (briefly describe the different modules/files).  If the structure isn't obvious from the file names, explain the purpose of important files.
-* How to run the code (see the Usage section below).]
+* Programming language used: Python.
+* Libraries used: NLTK, spaCy, scikit-learn, TensorFlow, PyTorch, SentenceTransformer, faiss, TextBlob, transformers.
+* Structure of the code: All source datasets are located in Movie Dialogue Corpus sub-folder. Code is in Python with commented sections to describe functionality. Output, visualizations, and other information can be found in Jupyter Notebooks.
 
 ## Requirements
 
-[List the software and libraries required to run the project.  It's best to include a `requirements.txt` file for easy installation:]
+All code can be run using the provided Python scripts and notebooks with the related datasets found in the corpus. Final Python and library versions will be provided upon final model decisions.
 
 ## Usage
-[Provide clear instructions on how to run the code.  Include specific commands and examples.Include any necessary configuration steps or data preparation steps.]
+
+Proper usage of the finalized scripts and selected models will be provided upon completion of project.
 
 ## Results
-[Summarize the results of your project.  Include:
 
-Performance metrics on the evaluation dataset.
-Comparisons to other approaches (if applicable).
-Any visualizations or graphs to illustrate the results.]
+Results for models selected will be provided upon project completion once model refinements are settled. Results criteria will be as follows:
+
+* Performance metrics on the evaluation dataset.
+* Comparisons to other approaches (if applicable).
+* Any visualizations or graphs to illustrate the results.
 
 ## Future Work
 [Discuss potential improvements or extensions to the project.  For example:
