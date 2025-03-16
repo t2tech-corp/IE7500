@@ -40,32 +40,32 @@ The application of Natural Language Processing (NLP) to movie dialogue and chara
 **Character Trait Analysis**
 * Character Embeddings
 
---Researchers are developing methods to create "character embeddings" that capture the essence of a character's personality through their dialogue. This involves training models to understand not just the words spoken, but also the context in which they are spoken, and the interactions between characters. 
---Works like "Representing Movie Characters in Dialogues" by Azab et al. (2019) explore how to encode both the language used by characters and their interactions into a single representation. This allows for more accurate character comparisons. 
---The ability to understand character traits through dialogue enables the development of tools that can analyze character development, identify archetypes, and even predict character behavior. 
+--Researchers are developing methods to create "character embeddings" that capture the essence of a character's personality through their dialogue. This involves training models to understand not just the words spoken, but also the context in which they are spoken, and the interactions between characters.  
+--Works like "Representing Movie Characters in Dialogues" by Azab et al. (2019) explore how to encode both the language used by characters and their interactions into a single representation. This allows for more accurate character comparisons.  
+--The ability to understand character traits through dialogue enables the development of tools that can analyze character development, identify archetypes, and even predict character behavior.  
 
 * Sentiment Analysis
 
---NLP techniques are used to analyze the sentiment expressed in dialogue, providing insights into a character's emotional state. This can be used to track emotional arcs and identify key moments of emotional change. 
---Analyzing the frequency and intensity of certain words or phrases can reveal underlying personality traits. 
+--NLP techniques are used to analyze the sentiment expressed in dialogue, providing insights into a character's emotional state. This can be used to track emotional arcs and identify key moments of emotional change.  
+--Analyzing the frequency and intensity of certain words or phrases can reveal underlying personality traits.  
 
 **Quote Similarity**
 * Semantic Similarity
 
---NLP techniques like word embeddings (e.g., Word2Vec, GloVe, BERT) and sentence embeddings are used to determine the semantic similarity between quotes. 
---This allows for the identification of quotes that have similar meanings, even if they use different words. 
---This is valuable for tasks like identifying recurring themes or motifs in a film, or comparing dialogue across different films. 
+--NLP techniques like word embeddings (e.g., Word2Vec, GloVe, BERT) and sentence embeddings are used to determine the semantic similarity between quotes.  
+--This allows for the identification of quotes that have similar meanings, even if they use different words.  
+--This is valuable for tasks like identifying recurring themes or motifs in a film, or comparing dialogue across different films.  
 
 **Genre Matching**
 * Dialogue Features
 
---NLP techniques are used to extract features from dialogue that are indicative of specific genres. For example, action movies may feature more short, concise sentences, while romantic comedies may feature more emotional and expressive dialogue. 
---Researchers analyze factors like vocabulary, sentiment, and dialogue structure to identify genre-specific patterns. 
+--NLP techniques are used to extract features from dialogue that are indicative of specific genres. For example, action movies may feature more short, concise sentences, while romantic comedies may feature more emotional and expressive dialogue.  
+--Researchers analyze factors like vocabulary, sentiment, and dialogue structure to identify genre-specific patterns.  
 
 * Topic Modeling
 
---Topic modeling techniques (e.g., LDA) are used to identify the main topics discussed in a film's dialogue. This can help to classify films into genres based on their thematic content. 
---"Evaluating Cinematic Dialogue - Which syntactic and semantic features are predictive of genre? | Towards Data Science" provides good information on this topic. 
+--Topic modeling techniques (e.g., LDA) are used to identify the main topics discussed in a film's dialogue. This can help to classify films into genres based on their thematic content.  
+--"Evaluating Cinematic Dialogue - Which syntactic and semantic features are predictive of genre? | Towards Data Science" provides good information on this topic.  
 
 ## Dataset
 
